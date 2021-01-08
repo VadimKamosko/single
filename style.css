@@ -1,0 +1,317 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+a
+{
+    text-decoration: none;
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+.nav
+{
+    position: absolute;
+    top: 22px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 6000;
+}
+.nav-ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+}
+
+.li-a-header{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+}
+.facebook ,.youtube
+{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 19px;
+}
+.facebook,.post,.instagram
+{
+    margin-right: 30px;
+}
+.li-a-header:hover {
+    background-color: #333;
+    text-decoration: underline;
+}
+.active
+{
+    text-decoration: underline;
+}
+.header
+{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./img/ca7ba4eb0cc00901770994d6ea086bc8.jpg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 788px;
+    position: absolute;
+    background-position:center center;
+}
+.social
+{
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    top: 200px;
+    z-index: 999999;
+}
+.post:hover,.facebook:hover,.instagram:hover,.youtube:hover
+{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.first
+{
+    position: absolute;
+    height: 788px;
+    width: 100%;
+}
+.img-container
+{
+    background: url('./img/Vector.png');
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.a-img-container
+{
+    padding: 4px 50px;
+}
+.container{
+    background: white;
+    top:788px;
+    width: 94%;
+    left: 3%;
+    position: relative;
+}
+.second, .third , .fourth , .five ,.six
+{
+    display:flex;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.third
+{
+    background: #F5F6F7;
+    justify-content: flex-end;
+}
+.five
+{
+    background: url('./img/pexels-christina-morillo-1181675\ 1.png');
+    height:524px;    
+}
+.content-left
+{
+    width: 30%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.third-left{
+    margin-right: 30px;
+}
+.content-left-header
+{
+    width: 70%;
+    height: 100%;
+    left: 15%;
+    text-align: center;
+    justify-content: center;
+}
+.content-right
+{
+    width: 30%;
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.third-right
+{
+    width:60%;
+}
+.img
+{
+    width: 100%;
+    height: 582px;
+}
+.img-first
+{
+    background: url('./img/content-image-1.png');
+    background-position: center center;
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.img-fourth
+{
+    background: url('./img/content-image-2.png');
+    background-position: center center;
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.btn
+{
+    background: #00AFDB;
+    color: white;
+    padding: 20px;
+}
+.btn-log
+{
+    background:#009CC2;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.btn-form
+{
+    padding: 11px;
+    width: 66px;
+    text-align: center;
+}
+.btn:hover
+{
+    background: #009CC2;
+}
+.text , .main-text, .btn-container
+{
+    width: 100%;
+    position: relative;
+}
+.header-text, .header-main-text
+{
+    color:white;
+}
+.back , .next
+{
+    cursor: pointer;
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navigation
+{
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+    padding-bottom: 20px;
+    z-index: 9999;
+}
+
+.back:hover,.next:hover
+{
+    opacity: 0.5;
+}
+.gallery-img
+{
+    display: flex;
+    overflow: hidden;
+}
+.container-gallery
+{
+    display: flex;
+    position: relative;
+    transition: all ease 1s;
+    left: 0px;
+}
+.picture
+{
+    margin-right: 30px;
+    position: relative;
+}
+.form-input
+{
+    padding: 0px 0px 0px 10px;
+    width:340px;
+    border:none;
+    outline: none;
+}
+.error
+{
+    border-color: red;
+    color: red;
+}
+.success
+{
+    border-color: green;
+    color: green;
+}
+.writeUs
+{
+    text-align: center;
+    align-content: center;
+    display: grid;
+}
+.six-container
+{
+    width: 40%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 120px 0 180px 0;
+}
+.img-store
+{
+    padding:0px;
+    margin:0px;
+    height:20px;
+}
+.footer
+{
+    width: 100%;
+    height: 185px;
+    background: black;
+}
+.headerMenu
+{
+    color: white;
+}
+.headerMenu:hover
+{
+    text-decoration: underline;
+}
+.selector::after
+{
+    content: "|";
+    color: #818181;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.footer-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+}
